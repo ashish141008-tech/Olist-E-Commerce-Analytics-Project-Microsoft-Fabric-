@@ -6,6 +6,7 @@ This project presents an end-to-end data analytics solution built on the Olist e
 It covers the complete workflow from data ingestion and transformation to modeling and dashboard visualization, enabling business insights into revenue, customers, products, and payments.
 
 🎯 **Objectives**
+
 1. Analyze overall business performance
 2. Identify top-performing states and product categories
 3. Understand customer purchasing behavior
@@ -31,6 +32,7 @@ b. Removed duplicates where necessary
 c. Standardized categorical fields (e.g., order status)
 
 🧠 **Data Modeling**
+
 a. Designed a star-schema-like model
 
    Customers → Orders → Order Items → Products
@@ -49,18 +51,21 @@ c. Applied bidirectional filtering where required
 4. Average Order Value (AOV)
 
 🔹 **Visualizations**
-📈 Revenue Trend Over Time
-🌍 Top States by Revenue
-🛍️ Top Product Categories by Order Volume
-💳 Payment Method Distribution
+
+   📈 Revenue Trend Over Time
+   🌍 Top States by Revenue
+   🛍️ Top Product Categories by Order Volume
+   💳 Payment Method Distribution
 
 🔹 **Slicers (Filters)**
+
 1. Order Status
 2. Customer State
 3. Payment Method
 4. Order Date
 
 ⚙️ **Tools & Technologies**
+
 a. Microsoft Fabric (Lakehouse, Pipeline, Power BI)
 b. SQL (Data Transformation)
 c. DAX (Measures)
@@ -68,6 +73,7 @@ d. Data Modeling
 e. Data Visualization
 
 🧠 **Key Insights**
+
 a. Revenue is concentrated in a few states (São Paulo dominates)
 b. Certain product categories contribute most of the sales
 c. Credit card is the most used payment method (~78%)
@@ -75,6 +81,7 @@ d. Customer retention is low (near one order per customer)
 e. Revenue shows fluctuations over time
 
 🚀 **Business Recommendations**
+
 a. Improve customer retention with loyalty programs and remarketing
 b. Expand operations in underperforming regions
 c. Focus on high-demand product categories
