@@ -113,6 +113,6 @@ Customers → Orders → Order Items → Products
 - Handled timestamp limitations for time-based analysis
 
 ##  Dashboard Preview
-   Olist_Dashboard (
+   Olist_Dashboard (Olist_dashboard.png)
     
 
