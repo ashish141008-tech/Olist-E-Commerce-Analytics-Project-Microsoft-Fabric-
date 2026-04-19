@@ -5,13 +5,13 @@
 This project presents an end-to-end data analytics solution built on the Olist e-commerce dataset using Microsoft Fabric.
 It covers the complete workflow from data ingestion and transformation to modeling and dashboard visualization, enabling business insights into revenue, customers, products, and payments.
 
-🎯 **Objectives**
+## 🎯 Objectives
 
-1. Analyze overall business performance
-2. Identify top-performing states and product categories
-3. Understand customer purchasing behavior
-4. Evaluate payment preferences
-5. Provide actionable business recommendations
+- Analyze overall business performance  
+- Identify top-performing states and product categories  
+- Understand customer purchasing behavior  
+- Evaluate payment preferences  
+- Provide actionable business recommendations  
 
 ## 🏗️ Data Engineering Workflow
 
