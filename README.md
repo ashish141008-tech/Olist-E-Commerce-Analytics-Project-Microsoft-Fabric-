@@ -113,6 +113,6 @@ Customers → Orders → Order Items → Products
 - Handled timestamp limitations for time-based analysis
 
 ##  Dashboard Preview
-   Olist_Dashboard (Olist_dashboard.png)
+   Olist_Dashboard (https://github.com/ashish141008-tech/Olist-E-Commerce-Analytics-Project-Microsoft-Fabric-/blob/main/Olist_dashboard.png)
     
 
