@@ -1,11 +1,11 @@
 # **Olist-E-Commerce-Analytics-Project-Microsoft-Fabric**
 
-📌 **Project Overview**
+ **Project Overview**
 
 This project presents an end-to-end data analytics solution built on the Olist e-commerce dataset using Microsoft Fabric.
 It covers the complete workflow from data ingestion and transformation to modeling and dashboard visualization, enabling business insights into revenue, customers, products, and payments.
 
-## 🎯 Objectives
+##  Objectives
 
 - Analyze overall business performance  
 - Identify top-performing states and product categories  
@@ -13,24 +13,24 @@ It covers the complete workflow from data ingestion and transformation to modeli
 - Evaluate payment preferences  
 - Provide actionable business recommendations  
 
-## 🏗️ Data Engineering Workflow
+##  Data Engineering Workflow
 
-### 🔹 Lakehouse
+###  Lakehouse
 - Created a Lakehouse to store and manage structured data  
 - Organized datasets for analysis  
 
-### 🔹 Data Pipeline
+###  Data Pipeline
 - Built pipelines to ingest and process data  
 - Managed data flow within Microsoft Fabric  
 
-### 🔹 SQL Transformations
+###  SQL Transformations
 - Cleaned and prepared data using SQL  
 - Extracted date components and handled formatting  
 - Addressed Fabric limitations (unsupported functions, column restrictions)  
 
 ---
 
-## 🧹 Data Preparation
+##  Data Preparation
 
 - Handled missing values and inconsistencies  
 - Removed duplicates where necessary  
@@ -53,21 +53,21 @@ Customers → Orders → Order Items → Products
 
 ---
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
-### 🔹 KPIs
+###  KPIs
 - Total Revenue  
 - Total Orders  
 - Total Customers  
 - Average Order Value (AOV)  
 
-### 🔹 Visualizations
+###  Visualizations
 - 📈 Revenue Trend Over Time  
 - 🌍 Top States by Revenue  
 - 🛍️ Top Product Categories by Order Volume  
 - 💳 Payment Method Distribution  
 
-### 🔹 Slicers (Filters)
+###  Slicers (Filters)
 - Order Status  
 - Customer State  
 - Payment Method  
@@ -75,7 +75,7 @@ Customers → Orders → Order Items → Products
 
 ---
 
-## ⚙️ Tools & Technologies
+##  Tools & Technologies
 
 - Microsoft Fabric (Lakehouse, Pipeline, Power BI)  
 - SQL (Data Transformation)  
@@ -85,7 +85,7 @@ Customers → Orders → Order Items → Products
 
 ---
 
-## 🧠 Key Insights
+##  Key Insights
 
 - Revenue is concentrated in a few states (São Paulo dominates)  
 - Certain product categories contribute most of the sales  
@@ -95,7 +95,16 @@ Customers → Orders → Order Items → Products
 
 ---
 
-## 🚀 Business Recommendations
+##  Challenges & Solutions
+
+- Faced limitations in Microsoft Fabric (no calculated columns in some modes)  
+- Resolved SQL compatibility issues (e.g., FORMAT function limitations)  
+- Fixed data model relationships to ensure accurate filtering  
+- Handled timestamp limitations for time-based analysis
+
+---
+
+##  Business Recommendations
 
 - Improve customer retention with loyalty programs and remarketing  
 - Expand operations in underperforming regions  
@@ -105,14 +114,13 @@ Customers → Orders → Order Items → Products
 
 ---
 
-## ⚠️ Challenges & Solutions
-
-- Faced limitations in Microsoft Fabric (no calculated columns in some modes)  
-- Resolved SQL compatibility issues (e.g., FORMAT function limitations)  
-- Fixed data model relationships to ensure accurate filtering  
-- Handled timestamp limitations for time-based analysis
-
 ##  Dashboard Preview
    Olist_Dashboard (https://github.com/ashish141008-tech/Olist-E-Commerce-Analytics-Project-Microsoft-Fabric-/blob/main/Olist_dashboard.png)
-    
+   
+---
 
+##  Conclusion
+
+This project demonstrates a complete data analytics workflow using Microsoft Fabric, transforming raw data into meaningful business insights through modeling and visualization.
+
+---
