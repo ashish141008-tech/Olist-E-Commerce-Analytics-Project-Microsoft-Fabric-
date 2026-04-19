@@ -110,5 +110,8 @@ Customers → Orders → Order Items → Products
 - Faced limitations in Microsoft Fabric (no calculated columns in some modes)  
 - Resolved SQL compatibility issues (e.g., FORMAT function limitations)  
 - Fixed data model relationships to ensure accurate filtering  
-- Handled timestamp limitations for time-based analysis  
+- Handled timestamp limitations for time-based analysis
+
+##  Dashboard Preview
+    https://github.com/ashish141008-tech/Olist-E-Commerce-Analytics-Project-Microsoft-Fabric-/blob/main/Olist_dashboard.png
 
