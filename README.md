@@ -13,84 +13,102 @@ It covers the complete workflow from data ingestion and transformation to modeli
 4. Evaluate payment preferences
 5. Provide actionable business recommendations
 
-🏗️ **Data Engineering Workflow**
+## 🏗️ Data Engineering Workflow
 
-🔹 **Lakehouse**
-a. Created a Lakehouse to store and manage structured data
-b. Organized datasets for analysis
-🔹 **Data Pipeline**
-a.  Built pipelines to ingest and process data
-b.   Managed data flow within Microsoft Fabric
-🔹 **SQL Transformations**
-a.  Cleaned and prepared data using SQL
-b.  Extracted date components and handled formatting
-c.  Addressed Fabric limitations (e.g., unsupported functions, column restrictions)
+### 🔹 Lakehouse
+- Created a Lakehouse to store and manage structured data  
+- Organized datasets for analysis  
 
-🧹 **Data Preparation**
-a. Handled missing values and inconsistencies
-b. Removed duplicates where necessary
-c. Standardized categorical fields (e.g., order status)
+### 🔹 Data Pipeline
+- Built pipelines to ingest and process data  
+- Managed data flow within Microsoft Fabric  
 
-🧠 **Data Modeling**
+### 🔹 SQL Transformations
+- Cleaned and prepared data using SQL  
+- Extracted date components and handled formatting  
+- Addressed Fabric limitations (unsupported functions, column restrictions)  
 
-a. Designed a star-schema-like model
+---
 
-   Customers → Orders → Order Items → Products
-   ↓
-   Payments
+## 🧹 Data Preparation
 
-b. Configured relationships for proper filter propagation
-c. Applied bidirectional filtering where required
+- Handled missing values and inconsistencies  
+- Removed duplicates where necessary  
+- Standardized categorical fields (e.g., order status)  
 
-📊 **Dashboard Features**
+---
 
-🔹 **KPIs**
-1. Total Revenue
-2. Total Orders
-3. Total Customers
-4. Average Order Value (AOV)
+## 🧠 Data Modeling
 
-🔹 **Visualizations**
+- Designed a **star-schema-like model**
 
-   📈 Revenue Trend Over Time
-   🌍 Top States by Revenue
-   🛍️ Top Product Categories by Order Volume
-   💳 Payment Method Distribution
+```
+Customers → Orders → Order Items → Products
+                        ↓
+                     Payments
+```
 
-🔹 **Slicers (Filters)**
+- Configured relationships for proper filter propagation  
+- Applied bidirectional filtering where required  
 
-1. Order Status
-2. Customer State
-3. Payment Method
-4. Order Date
+---
 
-⚙️ **Tools & Technologies**
+## 📊 Dashboard Features
 
-a. Microsoft Fabric (Lakehouse, Pipeline, Power BI)
-b. SQL (Data Transformation)
-c. DAX (Measures)
-d. Data Modeling
-e. Data Visualization
+### 🔹 KPIs
+- Total Revenue  
+- Total Orders  
+- Total Customers  
+- Average Order Value (AOV)  
 
-🧠 **Key Insights**
+### 🔹 Visualizations
+- 📈 Revenue Trend Over Time  
+- 🌍 Top States by Revenue  
+- 🛍️ Top Product Categories by Order Volume  
+- 💳 Payment Method Distribution  
 
-a. Revenue is concentrated in a few states (São Paulo dominates)
-b. Certain product categories contribute most of the sales
-c. Credit card is the most used payment method (~78%)
-d. Customer retention is low (near one order per customer)
-e. Revenue shows fluctuations over time
+### 🔹 Slicers (Filters)
+- Order Status  
+- Customer State  
+- Payment Method  
+- Order Date  
 
-🚀 **Business Recommendations**
+---
 
-a. Improve customer retention with loyalty programs and remarketing
-b. Expand operations in underperforming regions
-c. Focus on high-demand product categories
-d. Promote alternative payment methods
-e. Optimize marketing strategies based on sales trends
+## ⚙️ Tools & Technologies
 
-⚠️ **Challenges & Solutions**
-a. Faced limitations in Microsoft Fabric (no calculated columns in some modes)
-b. Resolved SQL compatibility issues (e.g., FORMAT function limitations)
-c. Fixed data model relationships to ensure accurate filtering
-d. Handled timestamp limitations for time-based analysis
+- Microsoft Fabric (Lakehouse, Pipeline, Power BI)  
+- SQL (Data Transformation)  
+- DAX (Measures)  
+- Data Modeling  
+- Data Visualization  
+
+---
+
+## 🧠 Key Insights
+
+- Revenue is concentrated in a few states (São Paulo dominates)  
+- Certain product categories contribute most of the sales  
+- Credit card is the most used payment method (~78%)  
+- Customer retention is low (near one order per customer)  
+- Revenue shows fluctuations over time  
+
+---
+
+## 🚀 Business Recommendations
+
+- Improve customer retention with loyalty programs and remarketing  
+- Expand operations in underperforming regions  
+- Focus on high-demand product categories  
+- Promote alternative payment methods  
+- Optimize marketing strategies based on sales trends  
+
+---
+
+## ⚠️ Challenges & Solutions
+
+- Faced limitations in Microsoft Fabric (no calculated columns in some modes)  
+- Resolved SQL compatibility issues (e.g., FORMAT function limitations)  
+- Fixed data model relationships to ensure accurate filtering  
+- Handled timestamp limitations for time-based analysis  
 
